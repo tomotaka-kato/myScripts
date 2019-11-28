@@ -23,5 +23,7 @@ function _common
 end
 
 function _scala
+  tmux rename-window scala
   tmux split-window -v -p 30
+  tmux select-pane -t 0
 end
